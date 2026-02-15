@@ -67,16 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ejercicio10.aspx" />
     <Content Include="ejercicio4.aspx" />
     <Content Include="ejercicio5.aspx" />
     <Content Include="ejercicio6.aspx" />
     <Content Include="ejercicio7.aspx" />
     <Content Include="ejercicio8.aspx" />
+    <Content Include="ejercicio9.aspx" />
     <Content Include="formulario2C.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ejercicio10.aspx.cs">
+      <DependentUpon>ejercicio10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio10.aspx.designer.cs">
+      <DependentUpon>ejercicio10.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ejercicio4.aspx.cs">
       <DependentUpon>ejercicio4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -111,6 +120,13 @@
     </Compile>
     <Compile Include="ejercicio8.aspx.designer.cs">
       <DependentUpon>ejercicio8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio9.aspx.cs">
+      <DependentUpon>ejercicio9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio9.aspx.designer.cs">
+      <DependentUpon>ejercicio9.aspx</DependentUpon>
     </Compile>
     <Compile Include="formulario2C.aspx.cs">
       <DependentUpon>formulario2C.aspx</DependentUpon>
