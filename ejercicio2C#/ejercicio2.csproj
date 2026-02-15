@@ -67,11 +67,51 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ejercicio4.aspx" />
+    <Content Include="ejercicio5.aspx" />
+    <Content Include="ejercicio6.aspx" />
+    <Content Include="ejercicio7.aspx" />
+    <Content Include="ejercicio8.aspx" />
     <Content Include="formulario2C.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ejercicio4.aspx.cs">
+      <DependentUpon>ejercicio4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio4.aspx.designer.cs">
+      <DependentUpon>ejercicio4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio5.aspx.cs">
+      <DependentUpon>ejercicio5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio5.aspx.designer.cs">
+      <DependentUpon>ejercicio5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio6.aspx.cs">
+      <DependentUpon>ejercicio6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio6.aspx.designer.cs">
+      <DependentUpon>ejercicio6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio7.aspx.cs">
+      <DependentUpon>ejercicio7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio7.aspx.designer.cs">
+      <DependentUpon>ejercicio7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio8.aspx.cs">
+      <DependentUpon>ejercicio8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio8.aspx.designer.cs">
+      <DependentUpon>ejercicio8.aspx</DependentUpon>
+    </Compile>
     <Compile Include="formulario2C.aspx.cs">
       <DependentUpon>formulario2C.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

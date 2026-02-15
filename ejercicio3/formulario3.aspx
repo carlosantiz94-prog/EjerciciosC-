@@ -69,7 +69,7 @@
                     <asp:Label ID="lbltp" runat="server" Text="Total a pagar"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="Txttp" runat="server" OnTextChanged="Txttp_TextChanged">0.01</asp:TextBox>
+                    <asp:TextBox ID="Txttp" runat="server" OnTextChanged="Txttp_TextChanged"></asp:TextBox>
                 </td>
             </tr>
             <tr>

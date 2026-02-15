@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../ejercicio3/ejercicio3.csproj" />
-  <Project Path="ejercicio2.csproj" />
+  <Project Path="../ejercicio3/ejercicio3.csproj" Id="115483c6-6ebf-427c-92f8-f077fd794968" />
+  <Project Path="ejercicio2.csproj" Id="d277e82a-66f7-4c13-b955-e9d4a08cb96b" />
 </Solution>
